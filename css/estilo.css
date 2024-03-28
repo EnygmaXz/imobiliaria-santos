@@ -1,128 +1,115 @@
-* { 
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: Tahoma;
+    
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma
+}
+
+
+.centralização-div {
+    
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.alinhamento-paragrafo {
+
+    text-align: justify;
+    line-height: 30px;
+    margin: 10px auto;
+    width: 900px;
+    font-size: 18px;
+
+}
+
+.tamanho-imagem {
+    
+    width: 500px;
+    
+}
+
+.cor-fundo {
+    
+    background-color: #1c81c0 ;
+    
+}
+
+.destaque-azul {
+    
+     color:  #1c81c0;
+     font-weight: bold;
+     
+    }
+    
+    .destaque-amarelo {
+        
+    color:  #fff81b;
+    font-weight: bold;
+    
 }
 
 .topo-pagina {
 
     background-color:#afddfb ;
+    margin: 0px auto ;
+    padding: 12px;
+    word-spacing: 10px;
     text-align: center;
 
-}
-
-.topo-pagina p {
-
-    text-align: center;
-    word-spacing: 15px;
-    margin-top: 0;
-    padding-bottom: 15px;
-
-}
-
-.logotipo {
-    
-    height: 180px;
 }
 
 .topo-pagina a {
-    
+
     text-decoration: none;
-    color: #1d1d1d;
-    font-size: 18px;
-    border-bottom: 3px solid #1d1d1d;
-    
+    border-bottom: 3px solid  #1d1d1d;
+    font-size: 17px;
 }
 
-.banner-pagina img {
-   
-    margin-top: 17px;
-    margin-left: 290px;
-    width: 930px;
-    height: 320px;
-    
-}
+.logotipo {
 
-.secao-sobre {
-    
-    text-align: center;
-    margin: 25px 290px 15px 290px;
-    
-}
-
-h1 {
-    
-    font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    line-height: 10px;
-    
-}
-
-h2 { 
-    
-    padding-top: 25px;
-    font-size: 25px;
+    width: 120px;
 
 }
 
- p {
 
-    text-align: justify;
+h2 {
+    
+    color:#ffffff;
     
 }
 
-.secao-sobre img {
 
-    width: 500px;
-
-}
-
-.secao-servicos {
+#servicos p {
 
     text-align: center;
-    background-color: #1c81c0;
-    height: 450px;
+    color: #ffffff ;
+    width: 800px;
+    
 }
 
-.secao-servicos p {
-
-    text-align: center;
-    margin-right: 430px;
-    margin-left: 430px ;
-    line-height: 39px;
-
-}
-
-
-.lista-servicos {  
-
-    width: 140px;
-    margin: auto;
+#listas {
+    
+    width: 150px;
+    margin: 20px auto;
+    color: #ffffff ;
+    font-size: 20px;
+    line-height: 30px;
     text-align: left;
-
 }
 
-.secao-contato {
-
-    text-align: center;
-    padding-top: 15px;
-    background-color: #1c81c0;
+#contato {    
+    margin-bottom: 0px ;
 }
 
-.secao-contato p {
-
-    background-color: #1d1d1d;
-    margin: 25px 150px 25px 150px;
-    padding: 15px;
-}
-
-.secao-contato a { 
-
+#contato a {
+    
     background-color: white;
     border-radius: 3px;
     line-height: 45px;
@@ -130,35 +117,12 @@ h2 {
     
 }
 
-.text-wellow {
-
-    color: #fff81b;
-
+#contato p {
+    
+    color: #ffffff ;
+    font-size: 19px ;
+    background-color: #1d1d1d;
+    padding: 15px;
+    
 }
-
-
-.text-blue {
-
-    color:#1c81c0; 
-    font-weight: bold;
-
-}
-
-.text-white {
-
-    color:#ffffff ; 
-    font-weight: bold ;
-
-}
-
-
-.text-size {
-
-    font-size: 18px;
-    line-height: 35px;
-
-}
-
-
-
 
