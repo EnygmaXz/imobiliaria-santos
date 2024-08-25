@@ -3,16 +3,16 @@ html {
 }
 
 body {
-    
+
     margin: 0;
     padding: 0;
-    font-family: Tahoma
+    font-family: sans-serif;
 
 }
 
 
 .centralização-div {
-    
+
     margin: 30px auto;
     text-align: center;
     padding: 15px;
@@ -31,35 +31,35 @@ body {
 }
 
 .tamanho-imagem {
-    
+
     width: 500px;
-    
+
 }
 
 .cor-fundo {
-    
-    background-color: #1c81c0 ;
-    
+
+    background-color: #1c81c0;
+
 }
 
 .destaque-azul {
-    
-     color:  #1c81c0;
-     font-weight: bold;
-     
-    }
-    
-    .destaque-amarelo {
-        
-    color:  #fff81b;
+
+    color: #1c81c0;
     font-weight: bold;
-    
+
+}
+
+.destaque-amarelo {
+
+    color: #fff81b;
+    font-weight: bold;
+
 }
 
 .topo-pagina {
 
-    background-color:#afddfb ;
-    margin: 0px auto ;
+    background-color: #afddfb;
+    margin: 0px auto;
     padding: 12px;
     word-spacing: 10px;
     text-align: center;
@@ -69,7 +69,7 @@ body {
 .topo-pagina a {
 
     text-decoration: none;
-    border-bottom: 3px solid  #1d1d1d;
+    border-bottom: 3px solid #5b0a6b;
     font-size: 17px;
 }
 
@@ -81,49 +81,48 @@ body {
 
 
 h2 {
-    
-    color:#ffffff;
-    
+
+    color: #ffffff;
+
 }
 
 
 #servicos p {
 
     text-align: center;
-    color: #ffffff ;
+    color: #ffffff;
     width: 800px;
-    
+
 }
 
 #listas {
-    
+
     width: 150px;
     margin: 20px auto;
-    color: #ffffff ;
+    color: #ffffff;
     font-size: 20px;
     line-height: 30px;
     text-align: left;
 }
 
-#contato {    
-    margin-bottom: 0px ;
+#contato {
+    margin-bottom: 0px;
 }
 
 #contato a {
-    
+
     background-color: white;
     border-radius: 3px;
     line-height: 45px;
     padding: 5px;
-    
+
 }
 
 #contato p {
-    
-    color: #ffffff ;
-    font-size: 19px ;
+
+    color: #ffffff;
+    font-size: 19px;
     background-color: #1d1d1d;
     padding: 15px;
-    
-}
 
+}
